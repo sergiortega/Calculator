@@ -1,0 +1,158 @@
+body
+{
+	text-align: center;
+	min-width: 300px;
+}
+
+form
+{
+	margin: 0 auto;
+	padding: 10px;
+	display: inline-block;
+	background: #000;
+	padding-right: 6px;
+	background: -webkit-radial-gradient(#585858, #343434, #0e0e0e);
+}
+
+input[type="textfield"]
+{
+	outline: 0;
+	color: black;
+	float: left;
+	width: 187px;
+	height: 25px;
+	margin-bottom: 5px;
+	text-align:right;
+	border: none;
+	font-weight: bold;
+	margin-top:4px;
+}
+
+#operation
+{
+	width: 25px;
+	text-align: left;
+	color: gray;
+	margin-left: 4px;
+	background: #f6f6f6;
+}
+
+#solution
+{
+	margin-right: 4px;
+	background: #c5c5c5;
+	background: -webkit-gradient(linear, left top, right top, from(#f6f6f6), to(#c5c5c5));
+	background: -moz-linear-gradient(left,  #f6f6f6,  #c5c5c5);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#c5c5c5');
+}
+
+#screen
+{
+	background: #202020;
+	height: 35px;
+	display: inline-block;
+	border: solid 1px black;
+	border-radius: 5px;
+	box-shadow: 0px 1px 0px #303030;
+}
+
+input[type="button"], input[type="reset"]
+{
+	outline: 0;
+	float: left;
+	width: 50px;
+	height: 38px;
+	margin: 2px;
+	border-radius: 3px;
+	font-size: 20px;
+	color: white;
+}
+
+input[type="button"]:hover, input[type="reset"]:hover
+{
+    box-shadow: 0px 0px 8px #fff;
+}
+
+input.number
+{
+	border: solid 1px #a14a03;
+	background: #f8c34f;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f8c34f), to(#e69015));
+	background: -moz-linear-gradient(top,  #f8c34f,  #e69015);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f8c34f', endColorstr='#e69015');
+	box-shadow: 0.5px 1.5px 0.5px #c5630a;
+}
+
+input.number:active
+{
+	background: #c4831d;
+	color: black;
+	box-shadow: 0.5px 1.5px 0.5px #f1b34e;
+}
+
+input.equal
+{
+	background: #458bd0;
+	width: 114px;
+	border: solid 1px #2c539e;
+	background: #4690d1;
+	background: -webkit-gradient(linear, left top, left bottom, from(#4690d1), to(#2768ac));
+	background: -moz-linear-gradient(top,  #4690d1,  #2768ac);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#4690d1', endColorstr='#2768ac');
+	box-shadow: 0px 1.5px 0.5px #043e7e;
+}
+
+input.equal:active
+{
+	background: #054992;
+	background: -webkit-gradient(linear, left top, left bottom, from(#054992), to(#1669b6));
+	background: -moz-linear-gradient(top,  #054992,  #1669b6);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#054992', endColorstr='#1669b6');
+	color: black;
+	box-shadow: 0.5px 1.5px 0.5px #054992;
+}
+
+input.operator
+{
+	background: #769837;
+	width: 60px;	
+	border: solid 1px #435420;
+	background: #91b549;
+	background: -webkit-gradient(linear, left top, left bottom, from(#91b549), to(#5b7921));
+	background: -moz-linear-gradient(top,  #91b549,  #5b7921);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#91b549', endColorstr='#5b7921');
+	box-shadow: 0px 1.5px 0.5px #283807;
+}
+
+input.operator:active
+{
+	background: #316814;
+	background: -webkit-gradient(linear, left top, left bottom, from(#316814), to(#356c18));
+	background: -moz-linear-gradient(top,  #316814,  #356c18);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#316814', endColorstr='#356c18');
+	color: black;
+	box-shadow: 0.5px 1.5px 0.5px #233f0c;	
+}
+
+input.other
+{
+	background: #901d02;
+	width: 77px;
+	font-size: 15px;
+	border: solid 1px #701802;
+	background: #941d00;
+	background: -webkit-gradient(linear, left top, left bottom, from(#941d00), to(#571300));
+	background: -moz-linear-gradient(top,  #941d00,  #571300);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#941d00', endColorstr='#571300');
+	box-shadow: 0px 1.5px 0.5px #2d0b02;
+}
+
+input.other:active
+{
+	background: #310b02;
+	background: -webkit-gradient(linear, left top, left bottom, from(#941d00), to(#310b02));
+	background: -moz-linear-gradient(top,  #941d00,  #310b02);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#941d00', endColorstr='#310b02');
+	color: black;
+	box-shadow: 0.5px 1.5px 0.5px #2d0b02;
+}
